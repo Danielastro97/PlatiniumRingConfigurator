@@ -1,0 +1,525 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">af9d484e-284f-462e-9e03-9552e159c53e</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">b9116316-c87d-4212-a382-bc40035939bb</item>
+    <item name="Name" type_name="gh_string" type_code="10">​​​​​glTF 2.0 Material</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="4">
+        <item name="Description" type_name="gh_string" type_code="10">Define glTF 2.0 material properties for displaying geometry in the ShapeDiver viewer.
+
+Please make sure to use publicly accessible URLs for your texture images. Once images have been accessed for the first time after uploading of your model, they will be cached and the URLs will not be accessed anymore, and can thus safely be deactivated.</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">a5502bfc-d01b-4807-892d-8ac2628c8fe2</item>
+        <item name="Name" type_name="gh_string" type_code="10">​​​​​glTF 2.0 Material</item>
+        <item name="NickName" type_name="gh_string" type_code="10">glTF2Material</item>
+      </items>
+      <chunks count="14">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>2555</X>
+              <Y>639</Y>
+              <W>83</W>
+              <H>244</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>2601</X>
+              <Y>761</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Optional name of material</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">18d0f5b8-fb0d-4a57-8535-5f76a10fc87e</item>
+            <item name="Name" type_name="gh_string" type_code="10">Name</item>
+            <item name="NickName" type_name="gh_string" type_code="10">N</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2557</X>
+                  <Y>641</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2573</X>
+                  <Y>651</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Base color of the material, its alpha channel can be used to control opacity. Can be modulated by using a BaseColorTexture.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">d531e0fe-716b-4e1c-bd65-10302a6dd2f7</item>
+            <item name="Name" type_name="gh_string" type_code="10">BaseColorFactor</item>
+            <item name="NickName" type_name="gh_string" type_code="10">CF</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">9f236574-e567-48a3-a1b8-9e58b388942e</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2557</X>
+                  <Y>661</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2573</X>
+                  <Y>671</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="color" type_name="gh_drawing_color" type_code="36">
+                          <ARGB>255;255;255;255</ARGB>
+                        </item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="2">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Base color texture image. Please supply a bitmap or a publicly accessible URL. Will be multiplied by the BaseColorFactor.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">47e461b5-c20b-4f07-a314-163f7831d6d1</item>
+            <item name="Name" type_name="gh_string" type_code="10">BaseColorTexture</item>
+            <item name="NickName" type_name="gh_string" type_code="10">CT</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2557</X>
+                  <Y>681</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2573</X>
+                  <Y>691</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="3">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Defines how much the material appears like metal. Accepts values from 0 (no metal) to 1 (metal). Can be modulated by a MetallicRoughnessTexture.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ef04f247-c2cb-4f40-9c1c-aa9ba90612db</item>
+            <item name="Name" type_name="gh_string" type_code="10">MetallicFactor</item>
+            <item name="NickName" type_name="gh_string" type_code="10">MF</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">1d423144-cc2c-4aed-8d26-f2ef99d25fec</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2557</X>
+                  <Y>701</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2573</X>
+                  <Y>711</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">1</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="4">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Defines how rough the material appears. Accepts values from 0 (smooth) to 1 (rough). Can be modulated by a MetallicRoughnessTexture.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">a730934b-0fd1-45bd-9f81-b0f41c9b8744</item>
+            <item name="Name" type_name="gh_string" type_code="10">RoughnessFactor</item>
+            <item name="NickName" type_name="gh_string" type_code="10">RF</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">8e8a8647-1bbc-4455-8773-75516bb375ac</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2557</X>
+                  <Y>721</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2573</X>
+                  <Y>731</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">0.2</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="5">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">The metallic roughness texture image. Please supply a bitmap or a publicly accessible URL. The blue channel of this image defines metalness, the green channel defines roughness.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">03cd625a-2be4-4056-abee-0fec26e07f9b</item>
+            <item name="Name" type_name="gh_string" type_code="10">MetallicRoughnessTexture</item>
+            <item name="NickName" type_name="gh_string" type_code="10">MRT</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2557</X>
+                  <Y>741</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2573</X>
+                  <Y>751</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="6">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">The normal texture image. Please supply a bitmap or a publicly accessible URL.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">403eadc8-167d-4a74-b0df-ce00f11dda16</item>
+            <item name="Name" type_name="gh_string" type_code="10">NormalTexture</item>
+            <item name="NickName" type_name="gh_string" type_code="10">NT</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2557</X>
+                  <Y>761</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2573</X>
+                  <Y>771</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="7">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Defines how emissive the material appears. Can be modulated by using an EmissiveTexture.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">9aab5fc5-6de8-4616-88eb-d7328575cdb2</item>
+            <item name="Name" type_name="gh_string" type_code="10">EmissiveFactor</item>
+            <item name="NickName" type_name="gh_string" type_code="10">EF</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">e2900eca-bc27-4a2d-976a-038a65c6cf52</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2557</X>
+                  <Y>781</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2573</X>
+                  <Y>791</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="color" type_name="gh_drawing_color" type_code="36">
+                          <ARGB>255;0;0;0</ARGB>
+                        </item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="8">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">The emissive texture image. Please supply a bitmap or a publicly accessible URL.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">51454afa-21f0-48cf-8ddf-0d149ab34e07</item>
+            <item name="Name" type_name="gh_string" type_code="10">EmissiveTexture</item>
+            <item name="NickName" type_name="gh_string" type_code="10">ET</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2557</X>
+                  <Y>801</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2573</X>
+                  <Y>811</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="9">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">One of OPAQUE (ignore the base color alpha channel), BLEND (use the base color alpha channel), MASK (don’t show parts whose alpha value is below AlphaCutoff).</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">a3ca476b-536c-4307-91df-0dd0f9b05dff</item>
+            <item name="Name" type_name="gh_string" type_code="10">AlphaMode</item>
+            <item name="NickName" type_name="gh_string" type_code="10">AM</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">2ae6eceb-7c94-45b4-8583-1c6d17453f29</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2557</X>
+                  <Y>821</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2573</X>
+                  <Y>831</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="2">
+                        <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                        <item name="string" type_name="gh_string" type_code="10">OPAQUE</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="10">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">The alpha cutoff value of the material.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">9789096c-a70a-42c2-be90-2f9cfc2139b7</item>
+            <item name="Name" type_name="gh_string" type_code="10">AlphaCutoff</item>
+            <item name="NickName" type_name="gh_string" type_code="10">AC</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">52b09ab6-e7ac-410c-81c3-3f632b0ec62b</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2557</X>
+                  <Y>841</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2573</X>
+                  <Y>851</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">0.5</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="11">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Specifies whether the material is double sided.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">c46bcac1-4128-4e91-b924-a2045752bd1f</item>
+            <item name="Name" type_name="gh_string" type_code="10">DoubleSided</item>
+            <item name="NickName" type_name="gh_string" type_code="10">DS</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">119dbfa2-ad81-48bb-8850-271dcdb09a7f</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2557</X>
+                  <Y>861</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2573</X>
+                  <Y>871</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="boolean" type_name="gh_bool" type_code="1">true</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">glTF 2.0 Material, connect this to a glTF 2.0 Display component.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">bfca1d09-c320-4f31-a227-e56a55ae27bb</item>
+            <item name="Name" type_name="gh_string" type_code="10">Material</item>
+            <item name="NickName" type_name="gh_string" type_code="10">M</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2616</X>
+                  <Y>641</Y>
+                  <W>20</W>
+                  <H>240</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2626</X>
+                  <Y>761</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

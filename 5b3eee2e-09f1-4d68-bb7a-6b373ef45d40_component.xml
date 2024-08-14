@@ -1,0 +1,91 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">8e260f04-39c4-48a1-9b8c-bbec04a7088b</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">b9116316-c87d-4212-a382-bc40035939bb</item>
+    <item name="Name" type_name="gh_string" type_code="10">​​​​​​​glTF 2.0 Display</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="4">
+        <item name="Description" type_name="gh_string" type_code="10">Display geometry in ShapeDiver's viewer using glTF 2.0 materials.
+
+Change the nickname of this component to create a named output, which can be used in ShapeDiver's Viewer API.</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">5b3eee2e-09f1-4d68-bb7a-6b373ef45d40</item>
+        <item name="Name" type_name="gh_string" type_code="10">​​​​​​​glTF 2.0 Display</item>
+        <item name="NickName" type_name="gh_string" type_code="10">glTFDisplay</item>
+      </items>
+      <chunks count="3">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>2686</X>
+              <Y>569</Y>
+              <W>48</W>
+              <H>44</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>2720</X>
+              <Y>591</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">2</item>
+            <item name="Description" type_name="gh_string" type_code="10">All of the geometry coming in here will be converted to meshes, polylines, or points and included in a single glTF asset to be displayed in ShapeDiver's Viewer.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">14f10c5b-10af-4209-bce1-16dd94355b07</item>
+            <item name="Name" type_name="gh_string" type_code="10">Geometry</item>
+            <item name="NickName" type_name="gh_string" type_code="10">G</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">460b6ece-ae52-45c0-8381-1f56ec926b83</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2688</X>
+                  <Y>571</Y>
+                  <W>17</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2698</X>
+                  <Y>581</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">2</item>
+            <item name="Description" type_name="gh_string" type_code="10">List of materials to be assigned to branches of geometry.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">1bbaa9fc-8241-4a25-8afb-199bc4218627</item>
+            <item name="Name" type_name="gh_string" type_code="10">Material</item>
+            <item name="NickName" type_name="gh_string" type_code="10">M</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">bfca1d09-c320-4f31-a227-e56a55ae27bb</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2688</X>
+                  <Y>591</Y>
+                  <W>17</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2698</X>
+                  <Y>601</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

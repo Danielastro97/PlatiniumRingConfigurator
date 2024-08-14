@@ -1,0 +1,110 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">00027467-0d24-4fa7-b178-8dc0ac5f42ec</item>
+    <item name="Name" type_name="gh_string" type_code="10">Value List</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="8">
+        <item name="Description" type_name="gh_string" type_code="10">Provides a list of preset values to choose from</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">8c2d31f0-960b-4be1-b36c-44e9256a4fca</item>
+        <item name="ListCount" type_name="gh_int32" type_code="3">13</item>
+        <item name="ListMode" type_name="gh_int32" type_code="3">1</item>
+        <item name="Name" type_name="gh_string" type_code="10">Value List</item>
+        <item name="NickName" type_name="gh_string" type_code="10">List</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+      </items>
+      <chunks count="14">
+        <chunk name="ListItem" index="0">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">"16.9"</item>
+            <item name="Name" type_name="gh_string" type_code="10">16.9</item>
+          </items>
+        </chunk>
+        <chunk name="ListItem" index="1">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">"17.3"</item>
+            <item name="Name" type_name="gh_string" type_code="10">17.3</item>
+          </items>
+        </chunk>
+        <chunk name="ListItem" index="2">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">"17.7"</item>
+            <item name="Name" type_name="gh_string" type_code="10">17.7</item>
+          </items>
+        </chunk>
+        <chunk name="ListItem" index="3">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">"18.2"</item>
+            <item name="Name" type_name="gh_string" type_code="10">18.2</item>
+          </items>
+        </chunk>
+        <chunk name="ListItem" index="4">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">"18.6"</item>
+            <item name="Name" type_name="gh_string" type_code="10">18.6</item>
+          </items>
+        </chunk>
+        <chunk name="ListItem" index="5">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">"19"</item>
+            <item name="Name" type_name="gh_string" type_code="10">19</item>
+          </items>
+        </chunk>
+        <chunk name="ListItem" index="6">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">"19.4"</item>
+            <item name="Name" type_name="gh_string" type_code="10">19.4</item>
+          </items>
+        </chunk>
+        <chunk name="ListItem" index="7">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">"19.8"</item>
+            <item name="Name" type_name="gh_string" type_code="10">19.8</item>
+          </items>
+        </chunk>
+        <chunk name="ListItem" index="8">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">"20.2"</item>
+            <item name="Name" type_name="gh_string" type_code="10">20.2</item>
+          </items>
+        </chunk>
+        <chunk name="ListItem" index="9">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">"20.6"</item>
+            <item name="Name" type_name="gh_string" type_code="10">20.6</item>
+          </items>
+        </chunk>
+        <chunk name="ListItem" index="10">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">"21"</item>
+            <item name="Name" type_name="gh_string" type_code="10">21</item>
+          </items>
+        </chunk>
+        <chunk name="ListItem" index="11">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">"21.4"</item>
+            <item name="Name" type_name="gh_string" type_code="10">21.4</item>
+          </items>
+        </chunk>
+        <chunk name="ListItem" index="12">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">"21.8"</item>
+            <item name="Name" type_name="gh_string" type_code="10">21.8</item>
+          </items>
+        </chunk>
+        <chunk name="Attributes">
+          <items count="1">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>752</X>
+              <Y>422</Y>
+              <W>56</W>
+              <H>22</H>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

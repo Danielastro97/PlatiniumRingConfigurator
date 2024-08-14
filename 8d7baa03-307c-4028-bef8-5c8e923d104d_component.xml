@@ -1,0 +1,63 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">e1b69b80-595a-486a-ada2-cd8918107cc8</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">b9116316-c87d-4212-a382-bc40035939bb</item>
+    <item name="Name" type_name="gh_string" type_code="10">ShapeDiver Document Payload</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="6">
+        <item name="Description" type_name="gh_string" type_code="10">ShapeDiver's invisible document payload</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">8d7baa03-307c-4028-bef8-5c8e923d104d</item>
+        <item name="Name" type_name="gh_string" type_code="10">ShapeDiver Document Payload</item>
+        <item name="NickName" type_name="gh_string" type_code="10">SDDP</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="1">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>0</X>
+              <Y>0</Y>
+              <W>150</W>
+              <H>20</H>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="PersistentData">
+          <items count="1">
+            <item name="Count" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Branch" index="0">
+              <items count="2">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Item" index="0">
+                  <items count="13">
+                    <item name="AbsoluteTolerance" type_name="gh_double" type_code="6">0</item>
+                    <item name="AngleTolerance" type_name="gh_double" type_code="6">0</item>
+                    <item name="DistanceDisplayPrecision" type_name="gh_int32" type_code="3">0</item>
+                    <item name="DocumentId" type_name="gh_guid" type_code="9">133bd2e5-6c1a-435f-a035-55f29c553b17</item>
+                    <item name="GltfVersion" type_name="gh_string" type_code="10">Gltf2</item>
+                    <item name="GrasshopperVersion" type_name="gh_string" type_code="10">1.0.0008</item>
+                    <item name="InputGroups" type_name="gh_string" type_code="10">{}</item>
+                    <item name="OutputGroups" type_name="gh_string" type_code="10">{}</item>
+                    <item name="RelativeTolerance" type_name="gh_double" type_code="6">0</item>
+                    <item name="RhinoVersion" type_name="gh_string" type_code="10">8.10.24226.13001</item>
+                    <item name="UnitSystem" type_name="gh_int32" type_code="3">0</item>
+                    <item name="VersionCreated" type_name="gh_string" type_code="10">1.18.1.0</item>
+                    <item name="VersionSaved" type_name="gh_string" type_code="10">1.18.1.0</item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

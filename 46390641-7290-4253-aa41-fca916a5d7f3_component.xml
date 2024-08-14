@@ -1,0 +1,88 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">7986486c-621a-48fb-8f27-a28a22c91cc9</item>
+    <item name="Name" type_name="gh_string" type_code="10">Average</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Solve the arithmetic average for a set of items</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">46390641-7290-4253-aa41-fca916a5d7f3</item>
+        <item name="Name" type_name="gh_string" type_code="10">Average</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Avr</item>
+      </items>
+      <chunks count="3">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>2095</X>
+              <Y>544</Y>
+              <W>87</W>
+              <H>28</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>2122</X>
+              <Y>558</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Input values for averaging</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">5a48a482-ba11-4291-828d-132b1d3a07e2</item>
+            <item name="Name" type_name="gh_string" type_code="10">Input</item>
+            <item name="NickName" type_name="gh_string" type_code="10">I</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">d897fdd3-d78a-4057-8006-5dcfb68aef34</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2097</X>
+                  <Y>546</Y>
+                  <W>10</W>
+                  <H>24</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2103.5</X>
+                  <Y>558</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Arithmetic mean (average) of all input values</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">dd0ae966-4920-4913-8e28-4a428bc7d83e</item>
+            <item name="Mapping" type_name="gh_int32" type_code="3">1</item>
+            <item name="Name" type_name="gh_string" type_code="10">Arithmetic mean</item>
+            <item name="NickName" type_name="gh_string" type_code="10">AM</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2137</X>
+                  <Y>546</Y>
+                  <W>43</W>
+                  <H>24</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2150.5</X>
+                  <Y>558</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

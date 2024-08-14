@@ -1,0 +1,188 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">50fa4b45-fbd8-4661-adef-875d2370823c</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">1c9de8a1-315f-4c56-af06-8f69fee80a7a</item>
+    <item name="Name" type_name="gh_string" type_code="10">Unsplit Loft Surface</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Create an untrimmed lofted surface through a set of section curves or surfaces which doesn't split into a polysurface(Brep) at kinks.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">ae7aeebb-b42b-449e-b3f7-418b26441092</item>
+        <item name="Name" type_name="gh_string" type_code="10">Unsplit Loft Surface</item>
+        <item name="NickName" type_name="gh_string" type_code="10">UnsplitLoft</item>
+      </items>
+      <chunks count="5">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>2543</X>
+              <Y>549</Y>
+              <W>66</W>
+              <H>64</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>2574</X>
+              <Y>581</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Set of section curves or surfaces to loft through</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">e1f20403-636d-42ed-bb28-074224a5032b</item>
+            <item name="Name" type_name="gh_string" type_code="10">Sections</item>
+            <item name="NickName" type_name="gh_string" type_code="10">S</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">aaf4f292-cccb-4ab1-82c6-ef83e8ff650b</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2545</X>
+                  <Y>551</Y>
+                  <W>14</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2553.5</X>
+                  <Y>561</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Closed loft, if true the last section curve will loft back to the first section curve</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">d7023c72-58a6-467a-a88c-4b88fbe61ff9</item>
+            <item name="Name" type_name="gh_string" type_code="10">Closed</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2545</X>
+                  <Y>571</Y>
+                  <W>14</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2553.5</X>
+                  <Y>581</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="boolean" type_name="gh_bool" type_code="1">true</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="2">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Determines how the section curves are lofted
+
+0 = Normal
+1 = Loose
+2 = Tight
+3 = Uniform
+4 = Straight</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">4c8be715-bc72-4bf0-8eeb-e3fe05c5bd20</item>
+            <item name="Name" type_name="gh_string" type_code="10">Loft Type</item>
+            <item name="NickName" type_name="gh_string" type_code="10">T</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2545</X>
+                  <Y>591</Y>
+                  <W>14</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2553.5</X>
+                  <Y>601</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_int32" type_code="3">1</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Resulting untrimmed single unsplit lofted surface
+
+When you bake this surface into Rhino it will become a usual polysurface(Brep) which is split at its kinks if it has kinks, unless you first run the command CreaseSplitting in Rhino's command line and turn it off by switching it to No. If this surface has kinks you can turn it into a polysurface(Brep) using Pufferfish's Split Kinky Surface component.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">460b6ece-ae52-45c0-8381-1f56ec926b83</item>
+            <item name="Name" type_name="gh_string" type_code="10">Unsplit</item>
+            <item name="NickName" type_name="gh_string" type_code="10">U</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>2589</X>
+                  <Y>551</Y>
+                  <W>18</W>
+                  <H>60</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>2598</X>
+                  <Y>581</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>
